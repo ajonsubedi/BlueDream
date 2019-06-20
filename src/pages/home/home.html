@@ -1,18 +1,21 @@
-<ion-header>
-  <ion-navbar>
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
+<ion-header class="nav">
+  <div class="nav">
+      <button ion-button menuToggle class="menuButton">
+        <img src="../../assets/icon/menu.png" class="menuIco">
+      </button>
+      <h2 class="title" >Blue Dream</h2>
+  </div>
 </ion-header>
 
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
+<ion-content class="body" padding>
+  <img class="homeImg" src="../../assets/imgs/homeimg.png" alt="img">
+  <div class="aboutUs">
+    <h3 class="subTitle">About us</h3>
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
-
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+    <p class="text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo nulla facilisi nullam vehicula ipsum a arcu. Arcu bibendum at varius vel. Lobortis scelerisque fermentum dui faucibus. Aliquet risus feugiat in ante. Vestibulum morbi blandit cursus risus at. Ipsum dolor sit amet consectetur adipiscing elit ut. Leo a diam sollicitudin tempor id. Consequat nisl vel pretium lectus quam id leo in vitae. Enim sed faucibus turpis in. Mi in nulla posuere sollicitudin aliquam. Aenean sed adipiscing diam donec adipiscing tristique risus. Lacinia quis vel eros donec ac odio tempor. Lorem dolor sed viverra ipsum nunc aliquet. Accumsan sit amet nulla facilisi morbi tempus iaculis urna.<br> <br>
+        Eget nullam non nisi est sit. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Dictum at tempor commodo ullamcorper a lacus vestibulum. Egestas congue quisque egestas diam in arcu cursus. Quisque id diam vel quam elementum. Aliquam sem et tortor consequat id porta. Pharetra diam sit amet nisl suscipit. Vitae sapien pellentesque habitant morbi tristique senectus. Dui id ornare arcu odio ut sem nulla pharetra diam. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Id volutpat lacus laoreet non. Potenti nullam ac tortor vitae. Ut consequat semper viverra nam libero justo. A iaculis at erat pellentesque adipiscing commodo elit. Scelerisque felis imperdiet proin fermentum leo vel orci porta non. Nibh nisl condimentum id venenatis. Enim eu turpis egestas pretium aenean. <br> <br>
+    </p>
+  </div>
+  <button ion-button (click)="goToNewsPage()">Latest news</button>
 </ion-content>
