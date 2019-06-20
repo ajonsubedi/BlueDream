@@ -1,0 +1,51 @@
+.aboutUs{
+    background-color: white;
+    color: black;
+    padding: 10%;
+    border-radius: 3%;
+    border-color: #00A2FF;
+    border-width: 2px;
+    border-style: solid;
+    position: relative;
+    top: 2%;
+}
+
+.header{
+    background-color: #00A2FF;
+}
+.title{
+    color: white;
+
+    text-align: center;
+}
+
+
+.body{
+    position: absolute;
+    //background-color: #A2DDFF;
+    color: white;
+}
+
+.homeImg
+{
+    position: relative;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+}
+
+.button{
+    position: relative;
+    margin-top: 10%;
+    background-color: #00A2FF
+}
+
+
+@keyframes slideLeft
+{   
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: 0%;
+    }
+}
