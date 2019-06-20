@@ -1,9 +1,28 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>contact</ion-title>
-  </ion-toolbar>
-</ion-header>
+    <div class="header">
+      <ion-toolbar class="logo" color="#00A2FF">
+        <img src="../../assets/icon/testLogo.png">
+      </ion-toolbar>
+    </div>
+  </ion-header>
 
 <ion-content>
-
+    <ion-title>Contact us</ion-title>
+  
+  <div class="forum">
+    <ion-label>
+      <h1>We are ready to help!</h1>
+      <p>Please dont hesitate to ask us any questions! <br> We will give you any solution for you problem.</p>
+    </ion-label>
+    <ion-list>
+      <ion-item>
+        <ion-input id="email" type="email" placeholder="Please enter your email"></ion-input>
+      </ion-item>
+      <ion-item>
+          <ion-textarea placeholder="You can ask here anything you want!" id="text"></ion-textarea>
+      </ion-item>
+    </ion-list>
+    <ion-button color="#00A2FF">Send</ion-button>
+  </div>
+  
 </ion-content>
