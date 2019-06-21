@@ -6,3 +6,57 @@
     right: 30%;
     width: 35%;
 }
+
+.eur{
+    content: url(../../assets/countries-flags/european-union.png);
+}
+.sendButton{
+    background-color: #00A2FF;
+    width: 100%;
+    position: relative;
+    margin-top: 10%;
+}
+
+.sendIco{
+    margin-left: 5%;
+}
+
+ion-content{
+    position: absolute;
+}
+.head{
+    position: relative;
+    top: 12%;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+    text-align: center;
+}
+.form{
+    position: relative;
+    padding: 5%;
+    top: 15%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #00A2FF;
+    border-radius: 5%;
+    margin: 5%;
+}
+.formAmount{
+    position: relative;
+    padding: 10%;
+    top: 15%;
+}
+h4{
+    position: relative;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+    text-align: center;
+}
+.paypal{
+    position: relative;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+}

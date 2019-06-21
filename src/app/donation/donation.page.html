@@ -7,5 +7,56 @@
   </ion-header>
 
 <ion-content>
+  <div class="head">
+    <ion-title>Donation</ion-title>
+    <p>You are just one step away from making someones life better! </p>
+  </div>
 
+  <form class="formAmount" (ngSubmit)="logForm()">
+  <ion-item>
+    <ion-input placeholder="How much do you want to donate?" required type="number"></ion-input>
+  </ion-item>
+  </form>
+  <form class="form" (ngSubmit)="logForm()">
+  <ion-item>
+    <ion-input placeholder="Credit card number" required type="number"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Expiry date</ion-label>
+      <ion-select placeholder="month" required>
+        <ion-select-option>1</ion-select-option>
+        <ion-select-option>2</ion-select-option>
+        <ion-select-option>3</ion-select-option>
+        <ion-select-option>4</ion-select-option>
+        <ion-select-option>5</ion-select-option>
+        <ion-select-option>6</ion-select-option>
+        <ion-select-option>7</ion-select-option>
+        <ion-select-option>8</ion-select-option>
+        <ion-select-option>9</ion-select-option>
+        <ion-select-option>10</ion-select-option>
+        <ion-select-option>11</ion-select-option>
+        <ion-select-option>12</ion-select-option>
+      </ion-select>
+      <ion-select placeholder="year" required>
+          <ion-select-option>2019</ion-select-option>
+          <ion-select-option>2020</ion-select-option>
+          <ion-select-option>2021</ion-select-option>
+          <ion-select-option>2022</ion-select-option>
+          <ion-select-option>2023</ion-select-option>
+          <ion-select-option>2024</ion-select-option>
+          <ion-select-option>2025</ion-select-option>
+          <ion-select-option>2026</ion-select-option>
+          <ion-select-option>2027</ion-select-option>
+          <ion-select-option>2028</ion-select-option>
+          <ion-select-option>2029</ion-select-option>
+          <ion-select-option>2030</ion-select-option>
+        </ion-select>
+  </ion-item>
+  <ion-item>
+      <ion-input placeholder="CVV" required type="password"></ion-input>
+  </ion-item>
+  <ion-button class="sendButton" color="#00A2FF">Donate<ion-icon class="sendIco" name="send"></ion-icon></ion-button>
+  <h4>OR</h4>
+  <img src="../../assets/paypal-logo (Custom).png" class="paypal">
+</form>
 </ion-content>
